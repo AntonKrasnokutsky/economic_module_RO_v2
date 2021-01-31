@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<insurance_company_data>
+    <kod_smo>61024</kod_smo>
+    <full_name_smo>Ростовский филиал ООО "АльфаСтрахование-ОМС"</full_name_smo>
+    <address_smo>344006, г.Ростов-на-Дону, пр.Ворошиловский д.62/284</address_smo>
+    <address_smo_ext></address_smo_ext>
+    <telephone_smo>(863)295-00-74</telephone_smo>
+    <personal_account_smo></personal_account_smo>
+    <checking_account_smo>40701810626160000001</checking_account_smo>
+    <single_treasury_account_smo></single_treasury_account_smo>
+    <treasury_account_smo></treasury_account_smo>
+    <payer_bank>Ф-л. "Ростовский", АО "Альфа-Банк"</payer_bank>
+    <bik_smo>046015207</bik_smo>
+    <inn_smo>7106060429</inn_smo>
+    <kpp_smo>616343001</kpp_smo>
+    <okotmo_smo>60701000001</okotmo_smo>
+</insurance_company_data>

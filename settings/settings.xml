@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<setting>
+	<name>settings.xml</name>
+	<!-- Сетевая папка из которой берутся файлы реестра и выкладываются результаты -->
+	<source_dir>/Data/input/</source_dir>
+	<!-- Папка для временных файлов, должна отличаться от source_dir -->
+	<work_dir>/Data/output/</work_dir>
+    <!-- Полный код МО по тфомс -->
+	<code_lpu_in_tfoms>4330101</code_lpu_in_tfoms>
+	<!-- Код страховой ТФОМС -->
+	<code_tfoms>61010</code_tfoms>
+	<!-- Полное наименование МО -->
+	<full_name_lpu>Муниципальное бюджетное учреждение здравоохранения «Центральная районная больница» Сальского района</full_name_lpu>
+	<!-- Признак круглосуточного стационара -->
+	<priznak_ks>1</priznak_ks>
+	<!-- Признак дневного стационара -->
+	<priznak_ds>2</priznak_ds>
+	<!-- Путь к каталогу с файлами настроек -->
+	<settings_file_path>settings</settings_file_path>
+	<!-- Данные из классификатора типов диспансеризации V016 -->
+	<!-- Первый этап диспансеризации взрослых -->
+	<dispanser_adult_I>ДВ4</dispanser_adult_I>
+	<!-- Второй этап диспансеризации взрослых -->
+	<dispanser_adult_II>ДВ2</dispanser_adult_II>
+	<!-- Первый этап диспансеризации детей-сирот в стационаре -->
+	<dispanser_children_stacionar_I>ДС1</dispanser_children_stacionar_I>
+	<!-- Второй этап диспансеризации детей-сирот в стационаре -->
+	<dispanser_children_stacionar_II>ДС3</dispanser_children_stacionar_II>
+	<!-- Первый этап диспансеризации детей-сирот -->
+	<dispanser_children_I>ДС2</dispanser_children_I>
+	<!-- Второй этап диспансеризации детей-сирот -->
+	<dispanser_children_II>ДС4</dispanser_children_II>
+	<!-- Профилактические медицинские осмотры взростого населения -->
+	<profosmotr_adult>ОПВ</profosmotr_adult>
+	<!-- Первый этап профилактических медицинских осмотров несовершеннолетних -->
+	<profosmotr_children_I>ПН1</profosmotr_children_I>
+	<!-- Второй этап профилактических медицинских осмотров несовершеннолетних -->
+	<profosmotr_children_II>ПН2</profosmotr_children_II>
+	<!-- Профиль стоматологической поликлиники -->
+	<profil_stomatolog>8300</profil_stomatolog>
+	<!-- Режим отладки -->
+	<debug>True</debug>
+	<!-- Файл содержащий данные для формирования счета в страховые -->
+	<!-- общая для всех форма счета (таблица и подписи) -->
+	<bill_format_xls>data/format.xml</bill_format_xls>
+	<!-- Файл с форматом отчета сводного счета поликлиники по страховой компании -->
+	<consolidated_ambulance_insurance_company_format_xls>data/svod_amb_smo.xml</consolidated_ambulance_insurance_company_format_xls>
+	<!-- Файл с форматом отчета сводного счета поликлиники по страховой компании -->
+	<consolidated_hospital_insurance_company_format_xls>data/svod_stac_smo.xml</consolidated_hospital_insurance_company_format_xls>
+	<!-- Путь к файлу с названием профилей поликлинических отделений -->
+	<profiles_ambulance>settings/profiles_amb.xml</profiles_ambulance>
+	<!-- Путь к файлу с названием профилей поликлинических отделений -->
+	<profiles_hospital>settings/profiles_stac.xml</profiles_hospital>
+	<!-- Путь к папке с данными страховых компаний для формирования счета -->
+	<path_to_dir_insurance_company_data>data/smo</path_to_dir_insurance_company_data>
+	<!-- Путь к папке с данными медицинской огранизации для формирования счета -->
+	<path_to_dir_medical_organization_data>data/mo</path_to_dir_medical_organization_data>
+</setting>

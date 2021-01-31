@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<medical_organization_data>
+    <kod_mo>4330101</kod_mo>
+    <full_name_mo>Муниципальное бюджетное учреждение здравоохранения "Центральная районная больница" Сальского района</full_name_mo>
+    <address_mo>347630, г.Сальск, ул.Павлова,2</address_mo>
+    <address_mo_ext></address_mo_ext>
+    <telephone_mo>(86372) 7-22-71</telephone_mo>
+    <personal_account_mo>22586X12060</personal_account_mo>
+    <checking_account_mo>единый казначейский счет 40102810845370000050, казначейский счет 03234643606500005800</checking_account_mo>
+    <checking_account_mo_tfoms></checking_account_mo_tfoms>
+    <correspondent_account_mo></correspondent_account_mo>
+    <single_treasury_account_mo>40102810845370000050</single_treasury_account_mo>
+    <treasury_account_mo>03234643606500005800</treasury_account_mo>
+    <payee_bank>УФК по Ростовской области (МБУЗ "ЦРБ" Сальского района, л/сч 22586X12060)  Отделение Ростов-на-Дону Банка России//УФК по Ростовской области г. Ростов-на-Дону КБК 00000000000000000130</payee_bank>
+    <payee_bank_for_tfoms>Отделение Ростов-на-Дону Банка России//УФК по Ростовской области г. Ростов-на-Дону</payee_bank_for_tfoms>
+    <kbk_mo>00000000000000000130</kbk_mo>
+    <bik_mo>016015102</bik_mo>
+    <inn_mo>6153007420</inn_mo>
+    <kpp_mo>615301001</kpp_mo>
+    <okotmo_mo>60650101001</okotmo_mo>
+</medical_organization_data>

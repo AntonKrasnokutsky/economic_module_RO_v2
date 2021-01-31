@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<insurance_company_data>
+    <kod_smo>61010</kod_smo>
+    <full_name_smo>Территориальный фонд обязательного медицинского страхования Ростовской области</full_name_smo>
+    <address_smo>344000,  г.Ростов-на-Дону,</address_smo>
+    <address_smo_ext>ул. Варфоломеева, д.261/81</address_smo_ext>
+    <telephone_smo>88632904593, 88632904594, 88632904210</telephone_smo>
+    <personal_account_smo>03585400030</personal_account_smo>
+    <checking_account_smo></checking_account_smo>
+    <single_treasury_account_smo>40102810845370000050</single_treasury_account_smo>
+    <treasury_account_smo>03271643600000095800</treasury_account_smo>
+    <payer_bank>ОТДЕЛЕНИЕ РОСТОВ-НА-ДОНУ//УФК по Ростовской области г.Ростов-на-Дону</payer_bank>
+    <bik_smo>016015102</bik_smo>
+    <inn_smo>6164025975</inn_smo>
+    <kpp_smo>616301001</kpp_smo>
+    <okotmo_smo></okotmo_smo>
+</insurance_company_data>

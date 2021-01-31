@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<insurance_company_data>
+    <kod_smo>61017</kod_smo>
+    <full_name_smo>Ростовский филиал Акционерного общества Страховая компания СОГАЗ-Мед</full_name_smo>
+    <address_smo>344002, г. Ростов-на-Дону, пр. Ворошиловский, д. 39/115</address_smo>
+    <address_smo_ext></address_smo_ext>
+    <telephone_smo>218-50-48</telephone_smo>
+    <personal_account_smo></personal_account_smo>
+    <checking_account_smo>40701810200070000004</checking_account_smo>
+    <single_treasury_account_smo></single_treasury_account_smo>
+    <treasury_account_smo></treasury_account_smo>
+    <payer_bank>Ф-л Банка ГПБ (АО) «Южный»</payer_bank>
+    <bik_smo>040349781</bik_smo>
+    <inn_smo>7728170427</inn_smo>
+    <kpp_smo>616302001</kpp_smo>
+    <okotmo_smo>60701000001</okotmo_smo>
+</insurance_company_data>

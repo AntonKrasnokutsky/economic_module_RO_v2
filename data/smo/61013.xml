@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<insurance_company_data>
+    <kod_smo>61013</kod_smo>
+    <full_name_smo>АО "МАКС-М"</full_name_smo>
+    <address_smo>115184, г. Москва, ул. Малая Ордынка, 50</address_smo>
+    <address_smo_ext></address_smo_ext>
+    <telephone_smo>(863) 227-02-83, (863) 218-25-74</telephone_smo>
+    <personal_account_smo></personal_account_smo>
+    <checking_account_smo>40701810500300000158</checking_account_smo>
+    <single_treasury_account_smo></single_treasury_account_smo>
+    <treasury_account_smo></treasury_account_smo>
+    <payer_bank>Филиале Банка ВТБ (ПАО) в г. Ростове-на-Дону</payer_bank>
+    <bik_smo>046015999</bik_smo>
+    <inn_smo>7702030351</inn_smo>
+    <kpp_smo>770501001</kpp_smo>
+    <okotmo_smo>60650101001</okotmo_smo>
+</insurance_company_data>

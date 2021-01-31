@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<cells>
+  <zap>
+    <prof>1901</prof>
+    <name>Инфекционное</name>
+  </zap>
+  <zap>
+    <prof>1902</prof>
+    <name>Инфекционное (боксированное)</name>
+  </zap>
+  <zap>
+    <prof>1903</prof>
+    <name>Пульмонологическое</name>
+  </zap>
+  <zap>
+    <prof>1904</prof>
+    <name>Сосудистой хирургии</name>
+  </zap>
+  <zap>
+    <prof>1905</prof>
+    <name>Кардиологическое</name>
+  </zap>
+  <zap>
+    <prof>1906</prof>
+    <name>Кардиохирургическое</name>
+  </zap>
+  <zap>
+    <prof>1907</prof>
+    <name>Торакальной хирургии </name>
+  </zap>
+  <zap>
+    <prof>1908</prof>
+    <name>Гастроэнтерологическое</name>
+  </zap>
+  <zap>
+    <prof>1910</prof>
+    <name>Хирургического лечения сложных нарушений ритма сердца и ЭКС</name>
+  </zap>
+  <zap>
+    <prof>1911</prof>
+    <name>Проктологическое</name>
+  </zap>
+  <zap>
+    <prof>1912</prof>
+    <name>Урологическое</name>
+  </zap>
+  <zap>
+    <prof>1914</prof>
+    <name>Хронического гемодиализа</name>
+  </zap>
+  <zap>
+    <prof>1915</prof>
+    <name>Эндокринологическое</name>
+  </zap>
+  <zap>
+    <prof>1916</prof>
+    <name>Нефрологическое</name>
+  </zap>
+  <zap>
+    <prof>1917</prof>
+    <name>Гематологическое</name>
+  </zap>
+  <zap>
+    <prof>1919</prof>
+    <name>Неврологическое</name>
+  </zap>
+  <zap>
+    <prof>1920</prof>
+    <name>Нейрохирургическое</name>
+  </zap>
+  <zap>
+    <prof>1921</prof>
+    <name>Офтальмологическое</name>
+  </zap>
+  <zap>
+    <prof>1922</prof>
+    <name>Оториноларингологическое</name>
+  </zap>
+  <zap>
+    <prof>1923</prof>
+    <name>Неврологическое для больных с острым нарушением мозгового кровообращения</name>
+  </zap>
+  <zap>
+    <prof>1924</prof>
+    <name>Челюстно-лицевой хирургии</name>
+  </zap>
+  <zap>
+    <prof>1925</prof>
+    <name>Дерматологическое</name>
+  </zap>
+  <zap>
+    <prof>1926</prof>
+    <name>Онкологическое</name>
+  </zap>
+  <zap>
+    <prof>1928</prof>
+    <name>Терапевтическое</name>
+  </zap>
+  <zap>
+    <prof>1929</prof>
+    <name>Хирургическое</name>
+  </zap>
+  <zap>
+    <prof>1930</prof>
+    <name>Травматoлогическое</name>
+  </zap>
+  <zap>
+    <prof>1931</prof>
+    <name>Ортопедическое</name>
+  </zap>
+  <zap>
+    <prof>1932</prof>
+    <name>Гнойной хирургии</name>
+  </zap>
+  <zap>
+    <prof>1933</prof>
+    <name>Ожоговое</name>
+  </zap>
+  <zap>
+    <prof>1934</prof>
+    <name>Острых отравлений</name>
+  </zap>
+  <zap>
+    <prof>1935</prof>
+    <name>Гинекологическое</name>
+  </zap>
+  <zap>
+    <prof>1936</prof>
+    <name>Реабилитационное</name>
+  </zap>
+  <zap>
+    <prof>1937</prof>
+    <name>Родильное</name>
+  </zap>
+  <zap>
+    <prof>1938</prof>
+    <name>Патологии беременности</name>
+  </zap>
+  <zap>
+    <prof>1945</prof>
+    <name>Рентгенохирургических методов диагностики и лечения</name>
+  </zap>
+  <zap>
+    <prof>1946</prof>
+    <name>Радиологическое</name>
+  </zap>
+  <zap>
+    <prof>1948</prof>
+    <name>Кардиохирургическое (для детей)</name>
+  </zap>
+  <zap>
+    <prof>1949</prof>
+    <name>Сестринского (акушерского) ухода</name>
+  </zap>
+  <zap>
+    <prof>1950</prof>
+    <name>Педиатрическое соматическое </name>
+  </zap>
+  <zap>
+    <prof>1951</prof>
+    <name>Инфекционное (для детей)</name>
+  </zap>
+  <zap>
+    <prof>1952</prof>
+    <name>Инфекционное для детей (боксированное)</name>
+  </zap>
+  <zap>
+    <prof>1959</prof>
+    <name>Онкогинекологическое</name>
+  </zap>
+  <zap>
+    <prof>1960</prof>
+    <name>Опухолей костей, кожи, мягких тканей, молочной железы</name>
+  </zap>
+  <zap>
+    <prof>1961</prof>
+    <name>Онкоурологическое</name>
+  </zap>
+  <zap>
+    <prof>1962</prof>
+    <name>Нефрологическое для детей</name>
+  </zap>
+  <zap>
+    <prof>1963</prof>
+    <name>Детское уроандрологическое </name>
+  </zap>
+  <zap>
+    <prof>1964</prof>
+    <name>Детское эндокринное</name>
+  </zap>
+  <zap>
+    <prof>1965</prof>
+    <name>Опухолей головы и шеи</name>
+  </zap>
+  <zap>
+    <prof>1966</prof>
+    <name>Абдоминальной онкологии</name>
+  </zap>
+  <zap>
+    <prof>1967</prof>
+    <name>Детской онкологии и гематологии</name>
+  </zap>
+  <zap>
+    <prof>1968</prof>
+    <name>Хирургическое (абдоминальное)</name>
+  </zap>
+  <zap>
+    <prof>1972</prof>
+    <name>Детское оториноларингологическое</name>
+  </zap>
+  <zap>
+    <prof>1974</prof>
+    <name>Стационар дневного пребывания</name>
+  </zap>
+  <zap>
+    <prof>1975</prof>
+    <name>Хирургическое для детей</name>
+  </zap>
+  <zap>
+    <prof>1976</prof>
+    <name>Детское онкологическое</name>
+  </zap>
+  <zap>
+    <prof>1979</prof>
+    <name>Ожоговое для детей</name>
+  </zap>
+  <zap>
+    <prof>1980</prof>
+    <name>Поликлиническое</name>
+  </zap>
+  <zap>
+    <prof>1983</prof>
+    <name>Для недоношенных детей</name>
+  </zap>
+  <zap>
+    <prof>1984</prof>
+    <name>Для новорожденных</name>
+  </zap>
+  <zap>
+    <prof>1986</prof>
+    <name>Патологии новорожденных</name>
+  </zap>
+  <zap>
+    <prof>1988</prof>
+    <name>Реанимационное</name>
+  </zap>
+  <zap>
+    <prof>1989</prof>
+    <name>Детской реанимации</name>
+  </zap>
+  <zap>
+    <prof>1990</prof>
+    <name>Кардиологическое для больных с острым инфарктом миокарда</name>
+  </zap>
+  <zap>
+    <prof>1991</prof>
+    <name>Ревматологическое</name>
+  </zap>
+  <zap>
+    <prof>1992</prof>
+    <name>Гериатрическое</name>
+  </zap>
+  <zap>
+    <prof>1993</prof>
+    <name>Акушерства и гинекологии</name>
+  </zap>
+</cells>
