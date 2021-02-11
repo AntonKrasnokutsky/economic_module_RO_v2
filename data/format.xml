@@ -5084,6 +5084,9 @@
 				<mcell>J50</mcell>
 				<mcell>K50</mcell>
 				<mcell>L50</mcell>
+				<mcell>M50</mcell>
+				<mcell>N50</mcell>
+				<mcell>O50</mcell>
 			</merge>
 			<border>
 				<left>00000000</left>
@@ -5106,11 +5109,8 @@
 			<value>Итого по подушевому нормативу за</value>
 		</cell>
 		<cell>
-			<first_cell>M50</first_cell>
+			<first_cell>P50</first_cell>
 			<merge>
-				<mcell>N50</mcell>
-				<mcell>O50</mcell>
-				<mcell>P50</mcell>
 				<mcell>Q50</mcell>
 				<mcell>R50</mcell>
 				<mcell>S50</mcell>
@@ -5212,14 +5212,60 @@
 				<mcell>M51</mcell>
 				<mcell>N51</mcell>
 				<mcell>O51</mcell>
-				<mcell>P51</mcell>
+			</merge>
+			<border>
+				<left>00000000</left>
+				<right></right>
+				<top>00000000</top>
+				<bottom>00000000</bottom>
+			</border>
+			<font>
+				<font_name>Times New Roman</font_name>
+				<size>8</size>
+				<bold>0</bold>
+				<italic>0</italic>
+			</font>
+			<alignment>
+				<horizontal>left</horizontal>
+				<vertical>center</vertical>
+				<wrap_text>0</wrap_text>
+			</alignment>
+			<number_format></number_format>
+			<value>Финансовое обеспечение ФАПов (ФП, ФЗ) за</value>
+		</cell>
+		<cell>
+			<first_cell>P51</first_cell>
+			<merge>
 				<mcell>Q51</mcell>
 				<mcell>R51</mcell>
 				<mcell>S51</mcell>
 				<mcell>T51</mcell>
 				<mcell>U51</mcell>
 				<mcell>V51</mcell>
-				<mcell>W51</mcell>
+			</merge>
+			<border>
+				<left></left>
+				<right></right>
+				<top>00000000</top>
+				<bottom>00000000</bottom>
+			</border>
+			<font>
+				<font_name>Times New Roman</font_name>
+				<size>8</size>
+				<bold>0</bold>
+				<italic>0</italic>
+			</font>
+			<alignment>
+				<horizontal>center</horizontal>
+				<vertical>center</vertical>
+				<wrap_text>0</wrap_text>
+			</alignment>
+			<number_format></number_format>
+			<value>=IF(AE51>0,AR22,"")</value>
+		</cell>
+		<cell>
+			<first_cell>W51</first_cell>
+			<merge>
 				<mcell>X51</mcell>
 				<mcell>Y51</mcell>
 				<mcell>Z51</mcell>
@@ -5229,24 +5275,24 @@
 				<mcell>AD51</mcell>
 			</merge>
 			<border>
-				<left>00000000</left>
+				<left></left>
 				<right>00000000</right>
 				<top>00000000</top>
 				<bottom>00000000</bottom>
 			</border>
 			<font>
 				<font_name>Times New Roman</font_name>
-				<size>9</size>
-				<bold>1</bold>
+				<size>8</size>
+				<bold>0</bold>
 				<italic>0</italic>
 			</font>
 			<alignment>
-				<horizontal>left</horizontal>
-				<vertical>bottom</vertical>
+				<horizontal>center</horizontal>
+				<vertical>center</vertical>
 				<wrap_text>0</wrap_text>
 			</alignment>
 			<number_format></number_format>
-			<value>Итого амбулаторная медицинская помощь</value>
+			<value>текущий месяц</value>
 		</cell>
 		<cell>
 			<first_cell>AE51</first_cell>
@@ -5264,7 +5310,7 @@
 			</border>
 			<font>
 				<font_name>Times New Roman</font_name>
-				<size>9</size>
+				<size>7</size>
 				<bold>1</bold>
 				<italic>0</italic>
 			</font>
@@ -5274,7 +5320,7 @@
 				<wrap_text>0</wrap_text>
 			</alignment>
 			<number_format>#,##0.00</number_format>
-			<value>=AE34+AE42+AE50</value>
+			<value>var_bill_summ_fap</value>
 		</cell>
 		<cell>
 			<first_cell>C52</first_cell>
@@ -5315,8 +5361,8 @@
 			</border>
 			<font>
 				<font_name>Times New Roman</font_name>
-				<size>8</size>
-				<bold>0</bold>
+				<size>9</size>
+				<bold>1</bold>
 				<italic>0</italic>
 			</font>
 			<alignment>
@@ -5325,7 +5371,7 @@
 				<wrap_text>0</wrap_text>
 			</alignment>
 			<number_format></number_format>
-			<value>в том числе финансовое обеспечение ФАПов (ФП, ФЗ)</value>
+			<value>Итого амбулаторная медицинская помощь</value>
 		</cell>
 		<cell>
 			<first_cell>AE52</first_cell>
@@ -5343,8 +5389,8 @@
 			</border>
 			<font>
 				<font_name>Times New Roman</font_name>
-				<size>7</size>
-				<bold>0</bold>
+				<size>9</size>
+				<bold>1</bold>
 				<italic>0</italic>
 			</font>
 			<alignment>
@@ -5353,7 +5399,7 @@
 				<wrap_text>0</wrap_text>
 			</alignment>
 			<number_format>#,##0.00</number_format>
-			<value>var_bill_summ_fap</value>
+			<value>=AE34+AE42+AE50+AE51</value>
 		</cell>
 		<cell>
 			<first_cell>C53</first_cell>
@@ -6155,7 +6201,7 @@
 				<wrap_text>0</wrap_text>
 			</alignment>
 			<number_format>#,##0.00</number_format>
-			<value>=AE26+AE32+AE51+AE59</value>
+			<value>=AE26+AE32+AE52+AE59</value>
 		</cell>
 		<cell>
 			<first_cell>C62</first_cell>

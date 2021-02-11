@@ -2593,3 +2593,10 @@ class ConsolidatedHospitalBillGenerator(FormatGenerator):
         return len(self.consolidated_insurance_company['fksg'][address_cell_kod_lpu][address_cell_podr]) - 1
 
 
+class ConsolidatedAMbulanceBillBaseGenerator(FormatGenerator):
+    """
+    Формирование сводного счета по поликлинике в разрезе основных данных,
+    страховая, количество обращений, количество посещений, УЕТ, сумма
+    """
+    def __init__(self):
+        pass

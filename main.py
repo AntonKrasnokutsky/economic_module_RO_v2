@@ -42,14 +42,14 @@ if settings.bill_go:
             smo01 = base.DataSMO(source[i], settings)
         elif str(source[i]).find('S61010') != -1:
             smo10 = base.DataSMO(source[i], settings)
-        # elif str(source[i]).find('S61013') != -1:
-        #     smo13 = base.DataSMO(source[i], settings)
-        # elif str(source[i]).find('S61017') != -1:
-        #     smo17 = base.DataSMO(source[i], settings)
-        # elif str(source[i]).find('S61022') != -1:
-        #     smo22 = base.DataSMO(source[i], settings)
-        # elif str(source[i]).find('S61024') != -1:
-        #     smo24 = base.DataSMO(source[i], settings)
+        elif str(source[i]).find('S61013') != -1:
+            smo13 = base.DataSMO(source[i], settings)
+        elif str(source[i]).find('S61017') != -1:
+            smo17 = base.DataSMO(source[i], settings)
+        elif str(source[i]).find('S61022') != -1:
+            smo22 = base.DataSMO(source[i], settings)
+        elif str(source[i]).find('S61024') != -1:
+            smo24 = base.DataSMO(source[i], settings)
     del(source)
     list_consolidated_ambulance_smo = []
     list_consolidated_hospital_ks_smo = []
