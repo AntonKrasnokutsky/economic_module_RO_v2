@@ -613,7 +613,8 @@ class DataSMO:
                           'smp_thrombolysis_previous_month_summ': Decimal(0),                   # Сумма по скорой помощи за вызовы с тромболизисом в предыдущем месяце
                           'capitalize': '',                                                     # Сумма счета прописью
                           'summ_pf': Decimal(0),                                                # Сумма подушевого финансирования
-                          'summ_smp': Decimal(0),                                               # Сумма подушевого финансирования ФАП
+                          'summ_smp': Decimal(0),                                               # Сумма подушевого финансирования СМП
+                          'summ_fap': Decimal(0),                                               # Сумма подушевого финансирования ФАП
                           'dispanser_adult_I_current_month_summ': Decimal(0),                   # Сумма за диспансеризацию I этап взрослого населения в текущем месяце
                           'dispanser_adult_I_previous_month_summ': Decimal(0),                  # Сумма за диспансеризацию I этап взрослого населения в предыдущем месяце
                           'dispanser_adult_II_current_month_summ': Decimal(0),                  # Сумма за диспансеризацию II этап взрослого населения в текущем месяце
@@ -1258,7 +1259,7 @@ class DataSMO:
                 self.bill_data['ds_current_month_summ'] + self.bill_data['ds_previous_month_summ'] +
                 self.bill_data['ambulance_current_month_summ'] + self.bill_data['ambulance_previous_month_summ'] +
                 self.bill_data['smp_current_month_summ'] + self.bill_data['smp_previous_month_summ'] +
-                self.bill_data['summ_pf'])
+                self.bill_data['summ_pf'] + self.bill_data['summ_fap'])
         value = pytils.numeral.rubles (int(summ))
         #Отделяем рубли от копеек
         penny = int ((summ * 100 - int (summ ) * 100))
